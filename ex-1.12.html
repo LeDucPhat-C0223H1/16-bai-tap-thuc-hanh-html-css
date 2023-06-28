@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>Tạo form và các điều khiển</title>
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./css/style12.css">
+</head>
+
+<body>
+    
+    <!-- Content -->
+    <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text" name="userName" id="userName" value="Nguyễn Thị Ngọc Nga" size="36px"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" name="address" id="address" value="2Bia Hùng Vương, Q.10" size="26px"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="number" name="phone" id="phone" value="0909097506"></td>
+                </tr>
+                <tr>
+                    <td>Phái</td>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="Men">Nam
+                        <input type="radio" name="gender" id="gender" value="Womaen" checked>Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select name="job" id="job">
+                            <option value="Doctor">Bác sĩ</option>
+                            <option value="Engineer">Kỹ sư</option>
+                            <option value="Teacher" selected>Giáo viên</option>
+                            <option value="Other">Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn sản phẩm tham gia</td>
+                    <td>
+                        <select name="product" id="product" multiple  size="4px">
+                            <option value="ToothBrush" selected>Kem đánh răng</option>
+                            <option value="WashingPowder">Bột giặt</option>
+                            <option value="Shampoo" selected>Dầu gội đầu</option>
+                            <option value="ShowerGel">Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số người dự đoán tham gia</td>
+                    <td><input type="text" name="predictedNumber" id="predictedNumber" value="25000" size="9px"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button>Đồng ý</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Bạn đã đăng ký thành công!!!</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    <!-- End Content -->
+    
+</body>
+</html>

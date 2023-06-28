@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    color: #ec0963;
+}
+
+.mainContent{
+    width: 680px;
+    margin: 0 auto;
+}
+
+.image{
+    float: left;
+    height: 250px;
+}
+
+font{
+    background-color: #ff0069;
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.ul--square{
+    list-style: square;
+    margin-left: 128px;
+}
+
+.ul--circle{
+    list-style: circle;
+    margin-left: 128px;
+}
+
+span{
+    background-color: #fde2fb;
+    color: #3a1a53;
+    margin-left: -2px;
+}

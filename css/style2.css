@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: #006600;
+}
+
+h2{
+    text-decoration: underline;
+    color: #0000FF;
+}
+
+.title{
+    font-weight: 600;
+}
+
+
+.content{
+    text-align: center;
+    background-color: #FFFFCC;
+}
+
+.content__title{
+    text-align: center;
+    background-color: #FECFFD;
+    color: #FF3399;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+hr{
+    width: 15%;
+}
+
+.content__paragraph--first{
+    color: #0000FF;
+}
+
+.content__paragraph--second{
+    color: #a52a2a;
+}
+
+.content__paragraph--three{
+    color: #006600;
+}

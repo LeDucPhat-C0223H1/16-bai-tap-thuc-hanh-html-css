@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+}
+
+tr:first-child td{
+    background-color: #003399;
+    color: #fff;
+    text-align: center;
+
+}
+
+tr:last-child td:first-child{
+    width: 23%;
+    background-color: #def0fa;
+}
+
+tr:last-child td:first-child ul{
+    list-style: square;
+    margin-left: -20px;
+    margin-right: 50px;
+    margin-top: -50px;
+
+}

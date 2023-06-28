@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.content{
+    text-align: center;
+}

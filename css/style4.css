@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/Bai04.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    color: #008888;
+    font-weight: 600;
+}
+
+.content{
+    color: #008888;
+}
+
+.content__paragragh--first{
+    background-color: #339999;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-style: italic;
+}
+

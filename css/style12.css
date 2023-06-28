@@ -1,0 +1,56 @@
+h2{
+    color: #316f04;
+    text-align: center;
+}
+
+div{
+    display: flex; 
+    justify-content: center;
+}
+
+table, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #e0f9d8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #316f04;
+}
+
+tr:nth-child(1) td:first-child{
+    width: 180px;
+}
+
+tr:nth-child(3) td:nth-child(2) input{
+    width: 150px;
+}
+
+tr:nth-child(4) td:nth-child(2) input:nth-child(1),
+tr:nth-child(4) td:nth-child(2) input:nth-child(2){
+    accent-color: #000000;
+}
+
+tr:nth-child(6) td:nth-child(2) select{
+    overflow: hidden;
+    width: 115px; 
+}
+
+tr:nth-child(6) td:nth-child(2) select option:nth-child(odd) {
+    background-color: #0c2366; 
+    color: #fff;
+}
+
+tr:nth-child(8){
+    text-align: center;
+}
+
+tr:nth-child(8) td button{
+    text-align: center;
+    background-color: #cdc6db;
+    border-color: #fff;
+}
+
+tr:last-child td{
+    text-align: center;
+    color: #c82553;
+}

@@ -1,0 +1,120 @@
+tr:nth-child(2) td:last-child,
+tr:nth-child(5) td,
+tr:nth-child(8) td,
+tr:nth-child(11) td,
+tr:nth-child(13) td{
+    background-color: #006699;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 758px;
+}
+
+table, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1) td{
+    height: 90px;
+    position: relative;
+}
+
+.table-top__image-left{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.table-top__image-right{
+    position: absolute;
+    top: 0;
+    right: 4px;
+}
+
+.table-top__title{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: flex;
+    gap: 10px;
+    color: #06629a;
+}
+
+.table-top__title-first{
+    height: 90px;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: url("../images/Am_nhac_01.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.table-top__title-second{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.table-top__title-three{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 38px;
+}
+
+tr:nth-child(2) td:first-child{
+    width: 220px;
+    position: relative;
+}
+
+tr:nth-child(2) td:first-child ul{
+    list-style: circle;
+    position: absolute;
+    top: -10px;
+}
+tr:nth-child(2) td:first-child ul li {
+    margin-top: 10px;
+}
+
+tr:nth-child(2) td:first-child ul li a{
+    color: #492bd9;
+}
+
+font{
+    color: #007ac1;
+    font-weight: 600;
+}
+
+.table-right__title{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.table-right__paragraph-right{
+    display: flex;
+    gap: 2px;
+    margin-right: 7px;
+}
+
+.table-right__paragraph-left{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2px;
+}
+
+p{
+    margin: 0;
+}
+
+.table__back-to-top-page{
+    display: flex;
+    justify-content: right;
+    background-color: #cdc9e1;
+    margin-left: 440px;
+    margin-right: 2px;
+}
